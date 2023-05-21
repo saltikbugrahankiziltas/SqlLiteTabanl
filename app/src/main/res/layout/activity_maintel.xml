@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/insta_logo2" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Number"
+        android:drawableRight="@drawable/phone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+    <Button
+        android:id="@+id/btngiris2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="Giriş"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btnanaekran"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="Ana Ekrana Dön"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        />
+    </LinearLayout>
+
+</LinearLayout>
